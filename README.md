@@ -22,12 +22,15 @@ You don't really have to "install" anything to look at or use the code. But if y
 
 Now you can run a couple of commands in the root of the airquotes project to get installed what you need to run or test it locally:
 
+
+```Shell
 sudo npm install -g karma
-
 bower install
-
 npm install
+```
 
 Then use Grunt to run a server and launch the web page in a browser where you can explore the working UI:
 
+```Shell
 grunt server
+```
